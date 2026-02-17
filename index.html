@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rosa + Tarjeta</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="castle">
+    <div id="table"></div>
+
+    <!-- MAIN -->
+    <div class="shade-wrap hover-animation" id="main">
+      <div id="flower-wrap">
+        <!-- ROSA -->
+        <div id="stem"></div>
+        <div id="petal1"></div>
+        <div id="petal2"></div>
+        <div id="petal3"></div>
+        <div id="petal4"></div>
+        <div id="petal5"></div>
+        <div id="falling-petal"></div>
+        <div id="leaf1"></div>
+        <div id="leaf2"></div>
+
+        <!-- 🌻 GIRASOL (NUEVO) -->
+        <div id="sunflower">
+          <div id="sun-stem"></div>
+          <div id="sun-leaf1"></div>
+          <div id="sun-leaf2"></div>
+          <div id="sun-petals"></div>
+          <div id="sun-center"></div>
+        </div>
+        <!-- /GIRASOL -->
+      </div>
+    </div>
+
+    <!-- SUB -->
+    <div class="shade-wrap" id="sub">
+      <div id="shade-main-reflections"></div>
+      <div id="shade-main">
+        <div id="shade-handle-big"></div>
+        <div id="shade-handle-small"></div>
+        <div id="top-reflection"></div>
+        <div id="bottom-shade"></div>
+      </div>
+    </div>
+
+    <!-- 🎁 TARJETA -->
+    <div class="gift-hanger" aria-label="Tarjeta regalo">
+      <div class="string"></div>
+
+      <button id="giftCard" class="gift-card" type="button" aria-expanded="false">
+        <div class="card-3d">
+          <!-- portada -->
+          <div class="card-face card-front">
+            <div class="bow" aria-hidden="true">
+              <span class="loop left"></span>
+              <span class="knot"></span>
+              <span class="loop right"></span>
+              <span class="tail t1"></span>
+              <span class="tail t2"></span>
+            </div>
+
+            <div class="front-text">
+              <div class="mini">Toca para abrir</div>
+              <div class="title">Para ti 💝</div>
+            </div>
+          </div>
+
+          <!-- interior -->
+          <div class="card-face card-inside">
+            <div class="inside-wrap">
+              <div class="inside-title">Mensaje</div>
+
+              <div class="message">
+                Ryby Es:<br><br>
+                Una vaquerita linda.✨
+              </div>
+
+              <div class="hint">Toca de nuevo para cerrar</div>
+            </div>
+          </div>
+        </div>
+      </button>
+    </div>
+    <!-- /TARJETA -->
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
